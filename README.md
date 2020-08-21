@@ -3,6 +3,10 @@ Run `dtsmake` for RPG Maker MZ core scripts, to generate TypeScript type definit
 
 ## Usage
 
+Following instruction shows how to build, place, and run.
+
+You can also use a binary from [Release](https://github.com/NumAniCloud/rmmz-dtsmake-run/releases/tag/1.0) and skip step 0 and 1.
+
 ### 0. requirement
 
 You have to install RPG Maker MZ.
