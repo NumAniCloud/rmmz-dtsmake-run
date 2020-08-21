@@ -29,21 +29,13 @@ Then run this:
 dotnet publish -r win-x64 /p:PublishSingleFile=true --configuration Release
 ```
 
-After build, you get these files in `./bin/Release/net5.0/win-x64/publish/`:
-
-```
-dtsmake-run.exe
-clrcompression.dll
-clrjit.dll
-coreclr.dll
-mscordaccore.dll
-```
+After build, you get a binary `./bin/Release/net5.0/win-x64/publish/dtsmake-run.exe`.
 
 ### 2. place
 
 You have to create new project with RPG Maker MZ.
 
-Then place files built in previous capter to `<tkool project folder>/js/`.
+Then place binary built in previous capter to `<tkool project folder>/js/`.
 
 Your directory contents should looks like:
 
@@ -60,10 +52,6 @@ js
 └ rmmz_sprites.js
 └ rmmz_windows.js
 └ dtsmake-run.exe
-└ clrcompression.dll
-└ clrjit.dll
-└ coreclr.dll
-└ mscordaccore.dll
 ```
 
 ### 3. run
