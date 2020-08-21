@@ -1,15 +1,19 @@
 # rmmz-dtsmake-run
-Run `dtsmake` for RPG Tkool MZ core scripts, to generate TypeScript type definition.
+Run `dtsmake` for RPG Maker MZ core scripts, to generate TypeScript type definition.
 
 ## Usage
 
 ### 0. requirement
 
-You have to install .NET Core 5.0 preview.
+You have to install RPG Maker MZ.
 
-You have to make `dtsmake` installed via npm (node.js).
+You have to install .NET Core 3.1.
+
+You have to make `dtsmake` package installed via npm (node.js).
 
 This software only support windows(x64).
+
+You have to install `tern` package via npm.
 
 ### 1. build
 
@@ -33,7 +37,7 @@ mscordaccore.dll
 
 ### 2. place
 
-You have to create new project with RPG Tkool MZ.
+You have to create new project with RPG Maker MZ.
 
 Then place files built in previous capter to `<tkool project folder>/js/`.
 
